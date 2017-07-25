@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559690021F2800D800608573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559690011F2800D800608573 /* AppDelegate.swift */; };
+		559690041F2800D800608573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559690031F2800D800608573 /* ViewController.swift */; };
+		559690071F2800D800608573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559690051F2800D800608573 /* Main.storyboard */; };
+		5596900A1F2800D800608573 /* CardCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 559690081F2800D800608573 /* CardCollector.xcdatamodeld */; };
+		5596900C1F2800D800608573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5596900B1F2800D800608573 /* Assets.xcassets */; };
+		5596900F1F2800D800608573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5596900D1F2800D800608573 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55968FFE1F2800D800608573 /* CardCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559690011F2800D800608573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559690031F2800D800608573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		559690061F2800D800608573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559690091F2800D800608573 /* CardCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardCollector.xcdatamodel; sourceTree = "<group>"; };
+		5596900B1F2800D800608573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5596900E1F2800D800608573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559690101F2800D800608573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55968FFB1F2800D800608573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55968FF51F2800D700608573 = {
+			isa = PBXGroup;
+			children = (
+				559690001F2800D800608573 /* CardCollector */,
+				55968FFF1F2800D800608573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55968FFF1F2800D800608573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55968FFE1F2800D800608573 /* CardCollector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559690001F2800D800608573 /* CardCollector */ = {
+			isa = PBXGroup;
+			children = (
+				559690011F2800D800608573 /* AppDelegate.swift */,
+				559690031F2800D800608573 /* ViewController.swift */,
+				559690051F2800D800608573 /* Main.storyboard */,
+				5596900B1F2800D800608573 /* Assets.xcassets */,
+				5596900D1F2800D800608573 /* LaunchScreen.storyboard */,
+				559690101F2800D800608573 /* Info.plist */,
+				559690081F2800D800608573 /* CardCollector.xcdatamodeld */,
+			);
+			path = CardCollector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55968FFD1F2800D800608573 /* CardCollector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559690131F2800D800608573 /* Build configuration list for PBXNativeTarget "CardCollector" */;
+			buildPhases = (
+				55968FFA1F2800D800608573 /* Sources */,
+				55968FFB1F2800D800608573 /* Frameworks */,
+				55968FFC1F2800D800608573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardCollector;
+			productName = CardCollector;
+			productReference = 55968FFE1F2800D800608573 /* CardCollector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55968FF61F2800D800608573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = daveapps;
+				TargetAttributes = {
+					55968FFD1F2800D800608573 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N6CN4UZBEQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55968FF91F2800D800608573 /* Build configuration list for PBXProject "CardCollector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55968FF51F2800D700608573;
+			productRefGroup = 55968FFF1F2800D800608573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55968FFD1F2800D800608573 /* CardCollector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55968FFC1F2800D800608573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5596900F1F2800D800608573 /* LaunchScreen.storyboard in Resources */,
+				5596900C1F2800D800608573 /* Assets.xcassets in Resources */,
+				559690071F2800D800608573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55968FFA1F2800D800608573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559690041F2800D800608573 /* ViewController.swift in Sources */,
+				559690021F2800D800608573 /* AppDelegate.swift in Sources */,
+				5596900A1F2800D800608573 /* CardCollector.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		559690051F2800D800608573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559690061F2800D800608573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5596900D1F2800D800608573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5596900E1F2800D800608573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559690111F2800D800608573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559690121F2800D800608573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559690141F2800D800608573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6CN4UZBEQ;
+				INFOPLIST_FILE = CardCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daveapps.CardCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		559690151F2800D800608573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N6CN4UZBEQ;
+				INFOPLIST_FILE = CardCollector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daveapps.CardCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55968FF91F2800D800608573 /* Build configuration list for PBXProject "CardCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559690111F2800D800608573 /* Debug */,
+				559690121F2800D800608573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559690131F2800D800608573 /* Build configuration list for PBXNativeTarget "CardCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559690141F2800D800608573 /* Debug */,
+				559690151F2800D800608573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		559690081F2800D800608573 /* CardCollector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				559690091F2800D800608573 /* CardCollector.xcdatamodel */,
+			);
+			currentVersion = 559690091F2800D800608573 /* CardCollector.xcdatamodel */;
+			path = CardCollector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55968FF61F2800D800608573 /* Project object */;
+}
