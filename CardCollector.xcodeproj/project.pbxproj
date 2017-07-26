@@ -13,6 +13,7 @@
 		5596900A1F2800D800608573 /* CardCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 559690081F2800D800608573 /* CardCollector.xcdatamodeld */; };
 		5596900C1F2800D800608573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5596900B1F2800D800608573 /* Assets.xcassets */; };
 		5596900F1F2800D800608573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5596900D1F2800D800608573 /* LaunchScreen.storyboard */; };
+		559690171F2846C500608573 /* IMG_6885.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 559690161F2846C500608573 /* IMG_6885.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5596900B1F2800D800608573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5596900E1F2800D800608573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559690101F2800D800608573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559690161F2846C500608573 /* IMG_6885.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6885.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5596900B1F2800D800608573 /* Assets.xcassets */,
 				5596900D1F2800D800608573 /* LaunchScreen.storyboard */,
 				559690101F2800D800608573 /* Info.plist */,
+				559690161F2846C500608573 /* IMG_6885.PNG */,
 				559690081F2800D800608573 /* CardCollector.xcdatamodeld */,
 			);
 			path = CardCollector;
@@ -129,6 +132,7 @@
 			files = (
 				5596900F1F2800D800608573 /* LaunchScreen.storyboard in Resources */,
 				5596900C1F2800D800608573 /* Assets.xcassets in Resources */,
+				559690171F2846C500608573 /* IMG_6885.PNG in Resources */,
 				559690071F2800D800608573 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
