@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1079.2" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Card View Controller-->
         <scene sceneID="0DD-GZ-G3y">
             <objects>
-                <viewController id="YPi-7g-bgU" sceneMemberID="viewController">
+                <viewController id="YPi-7g-bgU" customClass="CardViewController" customModule="CardCollector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0XV-pE-t81"/>
                         <viewControllerLayoutGuide type="bottom" id="Sr1-kV-BhH"/>
@@ -63,6 +63,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-mY-A4R">
                                 <rect key="frame" x="172" y="373.5" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="YPi-7g-bgU" eventType="touchUpInside" id="bvc-lu-P8a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,10 +81,22 @@
                     </view>
                     <navigationItem key="navigationItem" id="Jqh-Qk-rF0">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="51a-3b-gGe"/>
-                            <barButtonItem title="Photos" id="iQ7-Wm-glx"/>
+                            <barButtonItem systemItem="camera" id="51a-3b-gGe">
+                                <connections>
+                                    <action selector="cameraTapped:" destination="YPi-7g-bgU" id="RBv-j2-Dr4"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Photos" id="iQ7-Wm-glx">
+                                <connections>
+                                    <action selector="cardsTapped:" destination="YPi-7g-bgU" id="bRT-sL-IaH"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cardImageView" destination="G4f-ox-tD7" id="wVl-E7-y2I"/>
+                        <outlet property="cardTitleTextField" destination="hGk-Xt-U3m" id="ZWy-t6-GSJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX8-kI-XfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

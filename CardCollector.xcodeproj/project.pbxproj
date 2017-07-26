@@ -14,6 +14,7 @@
 		5596900C1F2800D800608573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5596900B1F2800D800608573 /* Assets.xcassets */; };
 		5596900F1F2800D800608573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5596900D1F2800D800608573 /* LaunchScreen.storyboard */; };
 		559690171F2846C500608573 /* IMG_6885.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 559690161F2846C500608573 /* IMG_6885.PNG */; };
+		559690191F2848A700608573 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559690181F2848A700608573 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5596900E1F2800D800608573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559690101F2800D800608573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559690161F2846C500608573 /* IMG_6885.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6885.PNG; sourceTree = "<group>"; };
+		559690181F2848A700608573 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				559690011F2800D800608573 /* AppDelegate.swift */,
 				559690031F2800D800608573 /* ViewController.swift */,
 				559690051F2800D800608573 /* Main.storyboard */,
+				559690181F2848A700608573 /* CardViewController.swift */,
 				5596900B1F2800D800608573 /* Assets.xcassets */,
 				5596900D1F2800D800608573 /* LaunchScreen.storyboard */,
 				559690101F2800D800608573 /* Info.plist */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559690191F2848A700608573 /* CardViewController.swift in Sources */,
 				559690041F2800D800608573 /* ViewController.swift in Sources */,
 				559690021F2800D800608573 /* AppDelegate.swift in Sources */,
 				5596900A1F2800D800608573 /* CardCollector.xcdatamodeld in Sources */,
