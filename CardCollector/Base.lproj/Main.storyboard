@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" id="arH-Tn-ggn">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="mUz-Lc-57x">
                             <connections>
-                                <segue destination="YPi-7g-bgU" kind="show" id="nnU-kc-2yF"/>
+                                <segue destination="YPi-7g-bgU" kind="show" identifier="cardSegue" id="nnU-kc-2yF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

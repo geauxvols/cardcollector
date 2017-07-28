@@ -20,10 +20,18 @@ class CardViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     var imagePicker = UIImagePickerController()
     
+    var card : Card? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         imagePicker.delegate = self
+        
+        if card != nil {
+            print("We have a card")
+        } else {
+            print("We have NO CARD!")
+        }
 
     }
     
