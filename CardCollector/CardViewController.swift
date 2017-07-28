@@ -48,6 +48,19 @@ class CardViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func addTapped(_ sender: Any) {
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let card = Card(context:context)
+        card.title = cardTitleTextField.text
+        card.price = priceTextField.text
+        card.condition = conditionTextField.text
+        card.photo = UIImagePNGRepresentation(cardImageView.image!)! as NSData
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController!.popViewController(animated: true)
+        
     }
     
 }
