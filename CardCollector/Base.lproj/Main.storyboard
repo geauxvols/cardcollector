@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -61,22 +62,42 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0w-mY-A4R">
-                                <rect key="frame" x="172" y="373.5" width="30" height="30"/>
+                                <rect key="frame" x="172" y="473.5" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addTapped:" destination="YPi-7g-bgU" eventType="touchUpInside" id="bvc-lu-P8a"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Condition" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2oa-hm-2UW">
+                                <rect key="frame" x="141" y="368.5" width="93" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-RS-LJk">
+                                <rect key="frame" x="141" y="418.5" width="93" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2oa-hm-2UW" firstAttribute="top" secondItem="hGk-Xt-U3m" secondAttribute="bottom" constant="20" id="2RU-B4-HUW"/>
                             <constraint firstItem="G4f-ox-tD7" firstAttribute="top" secondItem="0XV-pE-t81" secondAttribute="bottom" constant="20" id="5RU-nj-XYt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0bp-RS-LJk" secondAttribute="trailing" constant="125" id="BIo-Bf-XUq"/>
+                            <constraint firstItem="2oa-hm-2UW" firstAttribute="leading" secondItem="M0U-1S-e4B" secondAttribute="leadingMargin" constant="125" id="Htl-9a-WJI"/>
                             <constraint firstItem="m0w-mY-A4R" firstAttribute="centerX" secondItem="M0U-1S-e4B" secondAttribute="centerX" id="Laz-7R-x2l"/>
+                            <constraint firstItem="0bp-RS-LJk" firstAttribute="top" secondItem="2oa-hm-2UW" secondAttribute="bottom" constant="20" id="MMV-5c-4cS"/>
                             <constraint firstItem="G4f-ox-tD7" firstAttribute="centerX" secondItem="M0U-1S-e4B" secondAttribute="centerX" id="U4s-cE-oEc"/>
+                            <constraint firstItem="0bp-RS-LJk" firstAttribute="leading" secondItem="M0U-1S-e4B" secondAttribute="leadingMargin" constant="125" id="UF4-X3-yaK"/>
                             <constraint firstItem="hGk-Xt-U3m" firstAttribute="centerY" secondItem="M0U-1S-e4B" secondAttribute="centerY" id="VJl-0V-zrU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2oa-hm-2UW" secondAttribute="trailing" constant="125" id="YCA-6e-UzF"/>
+                            <constraint firstItem="m0w-mY-A4R" firstAttribute="top" secondItem="0bp-RS-LJk" secondAttribute="bottom" constant="25" id="Yof-8k-bsR"/>
                             <constraint firstItem="hGk-Xt-U3m" firstAttribute="centerX" secondItem="M0U-1S-e4B" secondAttribute="centerX" id="c3c-C9-YOs"/>
+                            <constraint firstItem="2oa-hm-2UW" firstAttribute="centerX" secondItem="M0U-1S-e4B" secondAttribute="centerX" id="ios-Ie-Gfx"/>
+                            <constraint firstItem="0bp-RS-LJk" firstAttribute="centerX" secondItem="M0U-1S-e4B" secondAttribute="centerX" id="u4y-kb-Kep"/>
                             <constraint firstItem="hGk-Xt-U3m" firstAttribute="width" secondItem="G4f-ox-tD7" secondAttribute="width" id="xfV-ry-6hw"/>
-                            <constraint firstItem="m0w-mY-A4R" firstAttribute="top" secondItem="hGk-Xt-U3m" secondAttribute="bottom" constant="25" id="yvv-z5-0TQ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jqh-Qk-rF0">
@@ -96,6 +117,8 @@
                     <connections>
                         <outlet property="cardImageView" destination="G4f-ox-tD7" id="wVl-E7-y2I"/>
                         <outlet property="cardTitleTextField" destination="hGk-Xt-U3m" id="ZWy-t6-GSJ"/>
+                        <outlet property="conditionTextField" destination="2oa-hm-2UW" id="cCY-te-Peu"/>
+                        <outlet property="priceTextField" destination="0bp-RS-LJk" id="cOY-vj-2hN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX8-kI-XfT" userLabel="First Responder" sceneMemberID="firstResponder"/>

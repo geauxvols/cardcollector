@@ -8,19 +8,40 @@
 
 import UIKit
 
-class CardViewController: UIViewController {
+class CardViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var cardImageView: UIImageView!
     
     @IBOutlet weak var cardTitleTextField: UITextField!
     
+    @IBOutlet weak var conditionTextField: UITextField!
+    
+    @IBOutlet weak var priceTextField: UITextField!
+    
+    var imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imagePicker.delegate = self
 
-        // Do any additional setup after loading the view.
     }
     
-    @IBAction func photosTapped(_ sender: Any) {
+    
+    @IBAction func cardsTapped(_ sender: Any) {
+        
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        cardImageView.image = image
+        
+        imagePicker.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cameraTapped(_ sender: Any) {
