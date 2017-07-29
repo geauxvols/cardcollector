@@ -28,9 +28,10 @@ class CardViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         imagePicker.delegate = self
         
         if card != nil {
-            print("We have a card")
-        } else {
-            print("We have NO CARD!")
+            cardImageView.image = UIImage(data: card!.photo! as Data)
+            cardTitleTextField.text = card!.title
+            conditionTextField.text = card!.condition
+            priceTextField.text = card!.price
         }
 
     }
